@@ -14,7 +14,7 @@
             <column name="last_name" length="45" not-null="true"/>
         </property>
         <property name="createdAt" type="java.time.LocalDateTime">
-            <column name="employed" default="false"/>
+            <column name="employed"/>
         </property>
     </class>
 </hibernate-mapping>
